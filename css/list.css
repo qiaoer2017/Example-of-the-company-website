@@ -1,0 +1,68 @@
+aside .newslist h2 {
+    color: #444;
+    font-size: 16px;
+    font-weight: normal;
+    border-bottom: solid 1px rgba(174, 174, 174, 0.66);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.newslist {
+    margin-bottom: 20px;
+}
+
+.newslist section {
+    margin-top: 7px;
+}
+
+.newslist section li a {
+    color: #444;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.newslist section li {
+    counter-increment: listxh;
+    display: inline-block;
+    width: 100%;
+    vertical-align: bottom;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 15px;
+}
+
+.newslist section li:nth-child(5n+5) {
+    border-bottom: solid 1px #cccccc;
+    padding-bottom: 10px;
+}
+
+.newslist section li:last-child {
+    border: 0;
+}
+
+.newslist section li:hover {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    -webkit-transition: text-shadow 0.8s linear;
+    -moz-transition: text-shadow 0.8s linear;
+    -ms-transition: text-shadow 0.8s linear;
+    -o-transition: text-shadow 0.8s linear;
+    transition: text-shadow 0.8s linear;
+}
+
+.newslist li a {
+    display: inline-block;
+    width: 510px;
+}
+.newslist li:hover{
+    text-shadow: 1px 1px 5px rgba(57, 57, 57, 0.75);
+}
+
+.newslist li time {
+    display: inline-block;
+    width: 117px;
+    text-align: center;
+    vertical-align: top;
+    color: #444;
+    font-size: 14px;
+}
